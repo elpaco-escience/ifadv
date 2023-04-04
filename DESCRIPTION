@@ -1,11 +1,15 @@
 Package: ifadv
 Type: Package
-Title: What the Package Does (Title Case)
+Title: IFA Dialog Video corpus
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+  person("Mark", "Dingemanse", email = "mark.dingemanse@ru.nl", role = c("aut", "cre")),
+  person("Barbara", "Vreede", email = "b.vreede@esciencecenter.nl", role = "aut"),
+  person("Eva", "Viviani", email = "e.viviani@esciencecenter.nl", role = "aut"),
+  person("Andreas", "Liesenfeld", email = "andreas.liesenfeld@ru.nl", role = "ctb"),
+  person("Netherlands eScience Center", role = c("cph", "fnd"))
+  )
+Description: Allowing R users easy access to the IFADV corpus
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
